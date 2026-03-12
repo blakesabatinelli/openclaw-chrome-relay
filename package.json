@@ -1,0 +1,16 @@
+{
+  "name": "chrome-relay",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Chrome Relay – bridges the Browser Relay extension to a clean HTTP API",
+  "bin": {
+    "chrome-relay": "./relay-server.js"
+  },
+  "scripts": {
+    "start": "node relay-server.js",
+    "mcp": "node mcp-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
