@@ -26,12 +26,12 @@ This service exposes a small, stable HTTP API on the VPS that proxies to a Chrom
 ## Requirements
 
 - Node.js 20+
-- A VPS (e.g., `krab`) reachable from your local machine
+- A VPS reachable from your local machine
 - OpenClaw Browser Relay extension installed and configured
 
 ## Installation
 
-Clone the repo on your VPS (e.g., `krab`):
+Clone the repo on your VPS:
 
 ```bash
 cd /root/projects
@@ -156,5 +156,5 @@ Key files:
 
 ## License
 
-TBD (add a license once you decide how you want to publish this).
+MIT
 
